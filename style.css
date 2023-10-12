@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+
+}
+/* Top Header Part  */
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 10px;
+}
+.left_header{
+display: flex;
+flex-direction: row;
+width: 30vw;
+align-items: center;
+justify-content: space-evenly;
+}
+.mail_logo img{
+width: 40px;
+}
+.mail{
+color: white;
+font-size: 18px;
+}
+#logo2{
+  margin-bottom: 7px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.right_header{
+  display:flex ;
+  width: 20vw;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 18px;
+}
+
+
+.colour{
+  color: white;
+}
+/* About Section  */
+.my_image{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(/assets/IMG_20231011_165938.jpg);
+  background-clip: content-box;
+  background-size: cover;
+  position: absolute;
+  margin-left: 683px;
+  margin-top: 100px;
+}
+.about_me_section{
+  width: 90vw;
+  position: absolute;
+  margin-top: 337px;
+  margin-left: 84px;
+  text-align: center;
+}
+#name{
+font-size: 30px;
+font-weight: 400;
+}
+#current_studing{
+  font-size: 50px;
+  font-weight: bolder;
+}
+#some_thing{
+  font-size: 20px;
+  margin-top: 12px;
+  opacity: 0.7;
+}
+.skill_section{
+  width: 100vw;
+  position: absolute;
+  margin-top: 800px;
+}
+.skill_text{
+  font-size: 50px;
+  text-align: center;
+}
+/* Team WOrk  */
+.teamwork{
+  width: 90vw;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.team_img img{
+  width: 400px;
+}
+.team_text{
+  text-align: center;
+  width: 25vw;
+  font-size: 50px;
+}
+#hr1{
+  margin-top: 500px;
+}
+/* Front End Web Development */
+.frontend{
+  width: 90vw;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.frontend_img img{
+  width: 400px;
+  height: 300px;
+}
+.frontend_text{
+  text-align: center;
+  width: 25vw;
+  font-size: 50px;
+}
+
+#hr2{
+  margin-top: 500px
+}
+/* PSUP  */
+
+.psup{
+  width: 90vw;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+.psup_img img{
+  width: 400px;
+}
+.psup_text{
+  text-align: center;
+  width: 25vw;
+  font-size: 50px;
+}
+/* Project Given  */
+.project{
+  width: 100vw;
+  position: absolute;
+  margin-top: 2500px;
+}
+.project_txt{
+  text-align: center;
+  font-size: 50px;
+}
+.image_clone img{
+  width: 650px;
+}
+.netflix_clone{
+  width: 100vw;
+  display: flex;
+  margin-top: 150px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.netflix_txt{
+  text-align: center;
+  width: 30vw;
+  font-size: 50px;
+}
+
+#hr3{
+  margin-top: 100px;
+}
+
+.kidz_img img{
+  width: 700px;
+}
+.kidz_clone{
+  width: 100vw;
+  display: flex;
+  margin-top: 70px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.kidz_txt{
+  text-align: center;
+  width: 30vw;
+  font-size: 50px;
+}
+#hr4{
+  margin-top: 100px;
+}
+#hr5{
+  margin-top: 100px;
+}
+#hr6{
+  margin-top: 100px;
+}
+#hr7{
+  margin-top: 6000px;
+}
+
+
+.icc_img img{
+  width: 700px;
+}
+.icc_clone{
+  width: 100vw;
+  display: flex;
+  margin-top: 70px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.icc_txt{
+  text-align: center;
+  width: 30vw;
+  font-size: 50px;
+}
+
+
+.sup_clone img{
+  width: 700px;
+}
+.sup_clone{
+  width: 100vw;
+  display: flex;
+  margin-top: 70px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.sup_txt{
+  text-align: center;
+  width: 30vw;
+  font-size: 50px;
+}
+
+.jarir_clone img{
+  width: 800px;
+}
+.jarir_clone{
+  width: 100vw;
+  display: flex;
+  margin-top: 70px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.jarir_txt{
+  text-align: center;
+  width: 30vw;
+  font-size: 50px;
+}
+
+/* Footer  */
+.footer{
+  width: 100vw;
+  position: absolute;
+  margin-top: 50px;
+}
+.contactme{
+  font-size: 50px;
+  text-align: center;
+}
+.contact_insta{
+  margin-top: 40px;
+  margin-left: 350px;
+  display: flex;
+  width: 50vw;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.insta_txt{
+  font-size: 20px;
+}
+
+.contact_link{
+  margin-top: 40px;
+  margin-left: 350px;
+  display: flex;
+  width: 50vw;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.link_txt{
+  font-size: 20px;
+    margin-right: 12px;
+}
+.link{
+  margin-left: 10px;
+}
+
+
+
+.contact_git{
+  margin-top: 40px;
+  margin-left: 350px;
+  display: flex;
+  width: 50vw;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.git_txt{
+  font-size: 20px;
+    margin-right: 22px;
+}
+.git{
+  margin-left: 22px;
+}
